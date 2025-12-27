@@ -67,8 +67,20 @@ while True:                                                            # Start a
 
         
 
+# Breaking it down:
+# When you choose PAPER:
+# Possibility 1: Computer chose SCISSOR → Computer wins
+# Possibility 2: Computer chose ROCK → You win
+# Possibility 3: Computer chose PAPER → Already handled as TIE in first if
+# So in the else part:
+# It's NOT scissor (that's in the if)
+# It's NOT paper (that would be a tie, already handled)
+# Therefore, it MUST be rock!
+    
+    
         
         
+
 
 
 
